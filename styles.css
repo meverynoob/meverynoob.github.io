@@ -10,9 +10,20 @@ img {
 	height: 100%;
 	width: 100%;
 }
+div {
+	transition: 1s;
+}
+div:hover {
+	font-size: 120%;
+}
 #one {
 	margin-top: -7%;
 	padding-left: 10px;
+	background-color: darkblue;
+}
+#one:hover {
+	font-size: 100%;
+	background-color: black;
 }
 #two {
 	background-color: darkblue;
